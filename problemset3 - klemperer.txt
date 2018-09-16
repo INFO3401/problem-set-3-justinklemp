@@ -1,0 +1,81 @@
+﻿Justin Klemperer
+INFO-3401
+Problem Set #3
+
+
+Monday:
+1. Use the command line to run asciify.py (included in the assignment repo). What does this script do? Include a screenshot of your results.
+  
+
+Basically what this script does is it takes an image and turns it into keyboard characters that can be displayed in you terminal after you connect to the correct directory.
+
+
+2. Install the Delorean Python package. What command did you use? Then, from the command line, launch Python. Use it to execute the following commands:
+Use command “pip install Delorean”
+ 
+What prints to the command line?
+ “Delorean(datetime=datetime.datetime(2018, 9, 11, 16, 44, 40, 393176), timezone='US/Eastern')”
+ 
+3. Use the command line to download http://www.colorado.edu/. What command did you use? Make sure to include this file as part of your submission.
+The command line that I used was “wget http://www.colorado.edu/”
+
+
+4. Search the downloaded file from #3 for the word "Colorado." What command did you use? How many lines did this find?
+“grep -ni Colorado index.html | wc -l”
+I believe that from the outcome shown there are around 81 lines?
+ 
+5. Now, print the lines containing the word "Colorado" to a file to "search_results.html". What command did you use? Include this file as part of your submission.
+“grep -n Colorado index.html > search_results.html”
+ 
+Wednesday:
+CU has recently come across a variety of findings stating that regular gym attendance can lead to a higher GPA. In an effort to understand this effect and how they might update their services and facilities to encourage students to be active, they want to turn to the data to both understand the current state of gym use, its potential effects on students, and how they might target specific facilities or programs to improve attendance.
+ 
+First, identify three datasets that CU can provide you to support this effort.
+Database 1 : CU records of how many times individual students use the gym per-year
+Database 2 : CU Recreation Center usage data from different available activity sections
+Database 3 : CU Academic database to determine if individual usage of gym correlates with higher GPA
+
+
+        I believe that by using these three datasets, we could begin to create a factual understanding between gym usage and student academic success rate. You would first need to know which individuals are using the gyms, how often they are going, and what they primarily use the gym for when they attend. That’s why the first two datasets would be incredibly beneficial for us in achieving our goal. If we could understand what sections of the gym are busy and often used by student helps track what is highly used throughout the recreation center compared to every other available activity that the center offers. By using these two datasets, it allows us to become specific with students and help them show what students enjoy most. The last, but most important aspect of this would be to somehow attain the academic records for every individual within CU who go to the gym, as well as those who do not attend the gym to contrast and investigate if there are any patterns within the findings.
+
+
+Friday:
+1. What was the problem?:
+   1. Seasonal influenza is stated to have ‘ hospitalized over 200,00 people to be individuals every year. The severity of the flu varies across symptoms, some being more dangerous than other and even causing death if not treated correctly. Genentech has created a competition between 50 teams to help try to forecast when, where and how strong the flu will be.
+1. What data is available?
+   1. Listed medical stations, sample submissions, test analysis, etc
+      1. https://www.kaggle.com/c/genentech-flu-forecasting
+1. What methods were used?
+   1. The method in which Genentech is doing this is very interesting, they are creating this to be a competition with a 50,000 dollar prize for the first team who wins. It’s a competition between 50 team to all use the data provided and create their best attempts to forecast how the flu will be in the future based upon previous events that are documented.
+1.  What did they find?
+   1. The contest is not over for this year, but in previous years they have found interesting conclusions, just as “Every two years there is a big genetic change within the virus, without factoring evolution into the model, you cannot capture these peaks in the number of cases”
+1. If you were to tackle the same problem today, what would you do differently, and why?
+   1. I’m not sure, I guess I would try to collect from as many accurate datasets that I possibly could in order to give all the teams a greater access to data?
+
+
+1.  What was the problem?:
+   1. Cumulative number of Ebola cases
+      1. https://www.kaggle.com/jonathanbouchet/animation-cumulative-number-of-ebola-cases
+1. What data is available?
+   1. All ebola cases from 2014 to 2016
+1. What methods were used?
+   1. Collecting all reports of ebola throughout Aug 29, 2014 with the first report, till the last report in Mar 23, 2016. The data when was set into a geological visual mapping throughout a world map. The end result is a highlighted animation showing the growth and geolocation of ebola through time.
+1. What did they find?
+   1. The output shows that there were less than 100 reports, with most incidents occurring in Africa, although some spreading in Italy and USA
+1. If you were to tackle the same problem today, what would you do differently, and why?
+   1. I don’t think there could be much done about the amount of data that is possible for this, but I think that if I were to redo this that I would try to zoom in throughout the animation to help demonstrate the highlighted zones throughout time?
+
+
+
+
+1. What was the problem?:
+   1. Concussion data in the NFL still remains a large problem, but by analyzing the data, the increase in attention to concussions may have sparked a catalysts to help combat this issue.
+      1. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3438866/
+1. What data is available?
+   1. Twelve years of NFL concussion data
+1. What methods were used?
+   1. Two consecutive 6-year periods from (1996 to 2001) and (2002 to 2007) were compared to determine changes with concussion injury in the game of football.
+1. What did they find?
+   1. In the most recent 6 year period of NFL, there is a significant decrease in the percentage of players returning to the game, and those who were injured typically remained out of the game longer.
+1. If you were to tackle the same problem today, what would you do differently, and why?
+   1. I would honestly just continue the same 6-year period, or even shorten them don to 3-year periods to determine results and changes more rapidly so that there can be adjustments and improvements made to counteract the findings.
